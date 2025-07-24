@@ -1,4 +1,4 @@
-const FECHA_LIMITE_CONFIRMACION = new Date("2025-07-23T23:59:00");
+const FECHA_LIMITE_CONFIRMACION = new Date("2025-08-01T23:59:00");
 
 function isDesktop() {
   return window.innerWidth >= 700;
