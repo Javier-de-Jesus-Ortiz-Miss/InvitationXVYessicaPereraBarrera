@@ -1,0 +1,17 @@
+// Archivo para constantes y números mágicos
+
+export const FECHA_LIMITE_CONFIRMACION = new Date("2025-08-01T23:59:00");
+export const COUNTDOWN_TARGET_DATE = new Date("2025-08-02T00:00:00");
+export const COUNTDOWN_INTERVAL_MS = 1000;
+export const NAVBAR_SHOW_DELAY_MS = 2000;
+export const MODAL_CLOSE_TIMEOUT_MS = 1800;
+export const MODAL_LOADING_STEP1_MS = 700;
+export const MODAL_LOADING_ERROR_MS = 900;
+export const MODAL_CONFIRM_SEND_MS = 1200;
+export const GALERY_ANIMATION_MS = 300;
+export const GALERY_MODAL_CLOSE_ANIM_MS = 250;
+export const LOADER_FADEOUT_MS = 1600;
+export const RESPONSIVE_DESKTOP_WIDTH = 700;
+export const RESPONSIVE_DESKTOP_HEIGHT = 800;
+export const INTERSECTION_THRESHOLD_GALERY = 0.4;
+export const INTERSECTION_THRESHOLD_ANIMATION = 0.15;

@@ -19,7 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 150vh;
 }
-/* ...existing code... */
+
 #swipe-indicator {
   position: fixed;
   left: 50%;
@@ -997,7 +997,7 @@ body.modal-open {
   width: 100%;
 }
 
-/* === GALERÍA MODAL (solo lo necesario) === */
+/* === GALERÍA MODAL === */
 #galery-modal {
   position: fixed;
   inset: 0;
@@ -1100,7 +1100,7 @@ body.modal-open {
   to   { opacity: 0; transform: scale(1.04);}
 }
 
-/* --- NUEVAS ANIMACIONES SLIDE --- */
+/* --- ANIMACIONES SLIDE --- */
 .galery-img-slideout-left {
   animation: galeryImgSlideOutLeft 0.3s cubic-bezier(.4,0,.2,1);
 }
@@ -1130,7 +1130,7 @@ body.modal-open {
   to   { opacity: 1; transform: translateX(0);}
 }
 
-/* Galería imágenes cuadradas */
+/* Galería imágenes */
 .galery-img-photo {
   width: 15rem;
   height: auto;
@@ -1398,12 +1398,6 @@ body.modal-open {
     margin-top: 0.5rem;
   }
 
-
-
-
-
-
-
   /* Parents Section */
   .parents {
     position: relative;
@@ -1425,7 +1419,6 @@ body.modal-open {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
     z-index: 10;
   }
-
 
   .section-title p {
     font-family: 'Lora', serif;
@@ -2176,7 +2169,7 @@ body.modal-open {
     width: 100%;
   }
 
-  /* === GALERÍA MODAL (solo lo necesario) === */
+  /* === GALERÍA MODAL=== */
   #galery-modal {
     position: fixed;
     inset: 0;
@@ -2279,7 +2272,7 @@ body.modal-open {
     to   { opacity: 0; transform: scale(1.04);}
   }
 
-  /* --- NUEVAS ANIMACIONES SLIDE --- */
+  /* --- ANIMACIONES SLIDE --- */
   .galery-img-slideout-left {
     animation: galeryImgSlideOutLeft 0.3s cubic-bezier(.4,0,.2,1);
   }
